@@ -16,7 +16,7 @@ nav {
   display: flex;
 }
 
-ul {
+.navBarList {
   width: 30%;
   font-size: 12px;
   display: flex;

@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
 }
-:root{
+
+:root {
   /* BACKGROUND */
   --background: ;
   --bg-primari: ;
@@ -15,8 +16,10 @@
   --btn-primari: ;
   --btn-secondari: ;
 }
+
 /* NavBar */
 nav {
+  width: 100%;
   height: 80px;
   background-color: #000;
   display: flex;
@@ -37,11 +40,101 @@ nav {
   list-style: none;
   color: aliceblue;
 }
+
+.cartIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.conteinCart {
+  display: flex;
+  align-items: center;
+
+}
+
 /* Hero */
+.conteinHero {
+  width: 100%;
+  height: 350px;
+  background-image: url(./HERO/Banner-Café.jpg);
+  background-repeat: no-repeat;
 
+}
 
+.conteinHero {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
 
+}
 
 /* Text Hero */
+.textHero {
+  width: 30%;
+  height: 350px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.20rem;
+  padding: 5px;
+}
+
+/* beneficios */
+.containBeneficios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.containBeneficios h2 {
+  width: 300px;
+  color: antiquewhite;
+  background-color: #ac8a63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5em;
+  border-radius: 5px;
+}
 
 
+.cardBeneficios {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+  margin: 50px 0px 150px 0px;
+}
+
+.imgCardBeneficios {
+  width: 70px;
+  margin: 10px 0px;
+}
+
+.bg--card {
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.card {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.descriptionCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1rem;
+}
